@@ -1,0 +1,84 @@
+body {
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+  text-align: justify;
+  width: 200mm;
+  font-size: 10pt;
+  color: #333;
+}
+
+header h1 {
+  color: #3480F3;
+  font-size: 5em;
+  float: left;
+}
+
+header #contact {
+  float: right;
+  margin-top: 1em;
+}
+
+header #contact dt {
+  float: left;
+  color: #BBB;
+  width: 5em;
+  clear: left;
+  text-align: right;
+  margin-right: .4em;
+}
+
+header #contact dd {
+  float: left;
+  margin-left: .3em;
+}
+
+section {
+  margin-top: 3em;
+  float: left;
+  width: 100%;
+}
+
+section h2 {
+  float: left;
+  text-align: right;
+  width: 25%;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #3480F3;
+}
+
+section .content {
+  float: left;
+  width: 68%;
+  border-left: solid 1px #CCC;
+  margin-left: 3%;
+  padding-left: 3%;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.3em;
+  clear: both;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+section h3 {
+  float: left;
+  color: #CCC;
+}
+
+section .detail {
+  margin-left: 1em;
+}
+
+#experience .job {
+  margin-top: 2em;
+  page-break-inside: avoid;
+}
+
+#experience .job:first-child {
+  margin-top: 0;
+}
+  
