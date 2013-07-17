@@ -75,10 +75,12 @@ section .detail {
 
 #experience .job {
   margin-top: 2em;
-  page-break-inside: avoid;
 }
 
 #experience .job:first-child {
   margin-top: 0;
 }
-  
+
+#experience .job p {
+    page-break-inside: avoid;
+}
